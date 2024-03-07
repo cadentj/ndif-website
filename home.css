@@ -1,13 +1,25 @@
 .hero {
-    /* Adjust the color values as needed to match your image */
-    background: linear-gradient(to right, #5eacf6, #e1bee7);
-    /* Fallback for older browsers */
-    background: -webkit-linear-gradient(left, #5eacf6, #e1bee7);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #5eacf6, #e1bee7);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #5eacf6, #e1bee7);
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #5eacf6, #e1bee7);
-    /* Standard syntax */
+    padding-top: 40vh !important;
+}
+
+.vertical-gradient {
+    background: "white" !important;
+    background-color: #ffffff !important;
+}
+
+
+/* Navbar styles */
+
+.nav-background {
+    background-color: #e1e7ed !important;
+}
+
+.nav-link.rounded-pill {
+    margin-right: .5rem;
+    /* Adjust spacing between links if needed */
+}
+
+/* Adjustments for the last item to not have a margin on the right */
+.nav-item:last-child .nav-link {
+    margin-right: 0;
 }

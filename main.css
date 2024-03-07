@@ -1,0 +1,10 @@
+/* Changes link color on hover */
+.nav-link:hover {
+    color: #0275d8; /* Example hover color, adjust as needed */
+}
+
+/* Keeps the active page link style unchanged */
+.nav-link.active, .nav-link.active:hover {
+    color: #000; /* Active link color, adjust as needed */
+    text-decoration: none; /* Removes underline */
+}
