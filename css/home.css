@@ -6,19 +6,3 @@
     color: #FFFCF0 !important;
     background-color: #4385BE !important;
 }
-
-/* Navbar styles */
-
-.nav-background {
-    background-color: #e1e7ed !important;
-}
-
-.nav-link.rounded-pill {
-    margin-right: .5rem;
-    /* Adjust spacing between links if needed */
-}
-
-/* Adjustments for the last item to not have a margin on the right */
-.nav-item:last-child .nav-link {
-    margin-right: 0;
-}

@@ -1,3 +1,17 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+[data-bs-theme="light"] {
+    
+    .btn-primary {
+        --bs-btn-color: var(--bs-body-bg);
+        --bs-btn-bg: #4385BE !important;
+        --bs-btn-border-color: #4385BE !important;   
+    }
+
+}
+
 [data-bs-theme="flexoki"] {
     --bs-body-color: #100F0F;
     --bs-body-color-rgb: #{to-rgb($white)};
